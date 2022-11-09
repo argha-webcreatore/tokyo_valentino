@@ -1,0 +1,542 @@
+CRITICAL - 2022-11-05 02:53:00 --> Undefined variable $validation
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php on line 28.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [], true)
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(109): view('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 02:59:26 --> Call to a member function getError() on array
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [], true)
+ 4 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(110): view('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 02:59:47 --> Undefined variable $validation
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php on line 28.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [], true)
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(109): view('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:15:48 --> Too few arguments to function CodeIgniter\Validation\Validation::showError(), 0 passed in C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 103 and at least 1 expected
+in SYSTEMPATH\Validation\Validation.php on line 560.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(103): CodeIgniter\Validation\Validation->showError()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:25:36 --> Call to undefined function agungsugiarto\boilerplate\Controllers\sesseion()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:25:52 --> Call to undefined method agungsugiarto\boilerplate\Controllers\Home::sesseion()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:26:00 --> Call to undefined method agungsugiarto\boilerplate\Controllers\Home::sesseion()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:27:06 --> Call to undefined method agungsugiarto\boilerplate\Controllers\Home::sesseion()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:27:15 --> Undefined variable $config
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\BaseController.php on line 55.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\BaseController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\BaseController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(890): agungsugiarto\boilerplate\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:27:45 --> Call to undefined method agungsugiarto\boilerplate\Controllers\Home::sesseion()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:28:01 --> Undefined property: agungsugiarto\boilerplate\Controllers\Home::$sesseion
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 103.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: agungsugiarto\\boilerplate\\Controllers\\Home::$sesseion', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 03:30:01 --> Undefined property: agungsugiarto\boilerplate\Controllers\Home::$sesseion
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 103.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: agungsugiarto\\boilerplate\\Controllers\\Home::$sesseion', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 04:01:41 --> Class "agungsugiarto\boilerplate\Controllers\UserModel" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 04:01:41 --> Class "agungsugiarto\boilerplate\Controllers\UserModel" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 04:01:54 --> Class "agungsugiarto\boilerplate\Controllers\UserModel" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 04:01:54 --> Class "agungsugiarto\boilerplate\Controllers\UserModel" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 04:08:51 --> Class "agungsugiarto\boilerplate\Controllers\UserModel" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 04:17:13 --> Call to undefined function App\Libraries\get_instance()
+in APPPATH\Libraries\Datatable.php on line 8.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(12): App\Libraries\Datatable->__construct()
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(15): agungsugiarto\boilerplate\Models\StoreModel->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(889): agungsugiarto\boilerplate\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 04:18:37 --> Class "agungsugiarto\boilerplate\Controllers\UserModel" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 04:18:37 --> Class "agungsugiarto\boilerplate\Controllers\UserModel" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:27:04 --> Call to a member function table() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php on line 17.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:28:07 --> Call to a member function table() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php on line 17.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:28:40 --> Call to a member function table() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php on line 17.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:28:44 --> Call to a member function table() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php on line 17.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:29:32 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:29:55 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:29:59 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:30:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::lastQuery()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php on line 19.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:30:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::lastQuery()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php on line 19.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:31:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Libraries\Datatable.php on line 29.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson(Object(CodeIgniter\Database\Query))
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 3 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:32:53 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+in APPPATH\Libraries\Datatable.php on line 29.
+ 1 APPPATH\Libraries\Datatable.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$num_rows', 'APPPATH\\Libraries\\Datatable.php', 29)
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson(Object(CodeIgniter\Database\Query))
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 4 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:33:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countResultAll()
+in APPPATH\Libraries\Datatable.php on line 29.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson(Object(CodeIgniter\Database\Query))
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 3 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:33:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Libraries\Datatable.php on line 69.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson(Object(CodeIgniter\Database\Query))
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 3 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:33:44 --> Undefined array key "order"
+in APPPATH\Libraries\Datatable.php on line 75.
+ 1 APPPATH\Libraries\Datatable.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'APPPATH\\Libraries\\Datatable.php', 75)
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `stores` ORDER BY ')
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 4 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:36:13 --> Undefined array key "order"
+in APPPATH\Libraries\Datatable.php on line 74.
+ 1 APPPATH\Libraries\Datatable.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'APPPATH\\Libraries\\Datatable.php', 74)
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `stores` ORDER BY ')
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 4 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:38:53 --> Undefined array key "order"
+in APPPATH\Libraries\Datatable.php on line 74.
+ 1 APPPATH\Libraries\Datatable.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'APPPATH\\Libraries\\Datatable.php', 74)
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `stores` ORDER BY ')
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(28): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 4 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->stores()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:44:05 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Config\Routes.php on line 27
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Config\Routes.php(27): CodeIgniter\Router\RouteCollection->get('storeList', 'add', 'Home::storeDatatable')
+ 2 SYSTEMPATH\Router\RouteCollection.php(645): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Config\Routes.php(28): CodeIgniter\Router\RouteCollection->group('stores', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(645): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Config\Routes.php(29): CodeIgniter\Router\RouteCollection->group('home', [...], Object(Closure))
+ 6 SYSTEMPATH\Router\RouteCollection.php(645): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 7 FCPATH\vendor\agungsugiarto\boilerplate\src\Config\Routes.php(84): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 8 SYSTEMPATH\Router\RouteCollection.php(396): include('FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Config\\Routes.php')
+ 9 SYSTEMPATH\Router\RouteCollection.php(468): CodeIgniter\Router\RouteCollection->discoverRoutes()
+10 SYSTEMPATH\Router\Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes('get')
+11 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/home/stores')
+12 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('admin/home/stores')
+13 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-05 05:45:32 --> mysqli_sql_exception: Unknown column 'order_type' in 'order clause' in C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4-rbac\app\Libraries\Datatable.php(84): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...')
+#4 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *\nFROM `...')
+#5 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+#6 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+#7 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+#8 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4-rbac\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 05:45:32 --> Unknown column 'order_type' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ')
+ 4 APPPATH\Libraries\Datatable.php(84): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ')
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ')
+ 6 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 7 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-05 05:45:33 --> mysqli_sql_exception: Unknown column 'order_type' in 'order clause' in C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4-rbac\app\Libraries\Datatable.php(84): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...')
+#4 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *\nFROM `...')
+#5 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+#6 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+#7 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+#8 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4-rbac\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 05:45:33 --> Unknown column 'order_type' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ')
+ 4 APPPATH\Libraries\Datatable.php(84): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ')
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `stores` ORDER BY order_type desc LIMIT 10 OFFSET 0 ')
+ 6 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 7 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:46:57 --> Array to string conversion
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 37.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:46:57 --> Array to string conversion
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 37.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:50:57 --> Undefined variable $records
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 39.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 05:50:57 --> Undefined variable $records
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 39.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-05 06:04:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (  name like '%s%'  OR address like '%s%'  OR contact like '%s%'  OR desc...' at line 2 in C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4-rbac\app\Libraries\Datatable.php(68): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...')
+#4 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *\nFROM `...')
+#5 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+#6 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+#7 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+#8 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4-rbac\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 06:04:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (  name like '%s%'  OR address like '%s%'  OR contact like '%s%'  OR desc...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stores` AND (  name like \'%s%\'  OR address like \'%s%\'  OR contact like \'%s%\'  OR description like \'%s%\'  ) ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stores` AND (  name like \'%s%\'  OR address like \'%s%\'  OR contact like \'%s%\'  OR description like \'%s%\'  ) ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stores` AND (  name like \'%s%\'  OR address like \'%s%\'  OR contact like \'%s%\'  OR description like \'%s%\'  ) ')
+ 4 APPPATH\Libraries\Datatable.php(68): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stores` AND (  name like \'%s%\'  OR address like \'%s%\'  OR contact like \'%s%\'  OR description like \'%s%\'  ) ')
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `stores` AND (  name like \'%s%\'  OR address like \'%s%\'  OR contact like \'%s%\'  OR description like \'%s%\'  ) ')
+ 6 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 7 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-05 06:06:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (  name like '%h%'  OR address like '%h%'  OR contact like '%h%'  OR desc...' at line 2 in C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4-rbac\app\Libraries\Datatable.php(68): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...')
+#4 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *\nFROM `...')
+#5 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+#6 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+#7 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+#8 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4-rbac\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 06:06:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (  name like '%h%'  OR address like '%h%'  OR contact like '%h%'  OR desc...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stores` AND (  name like \'%h%\'  OR address like \'%h%\'  OR contact like \'%h%\'  OR description like \'%h%\'  ) ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stores` AND (  name like \'%h%\'  OR address like \'%h%\'  OR contact like \'%h%\'  OR description like \'%h%\'  ) ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stores` AND (  name like \'%h%\'  OR address like \'%h%\'  OR contact like \'%h%\'  OR description like \'%h%\'  ) ')
+ 4 APPPATH\Libraries\Datatable.php(68): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stores` AND (  name like \'%h%\'  OR address like \'%h%\'  OR contact like \'%h%\'  OR description like \'%h%\'  ) ')
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `stores` AND (  name like \'%h%\'  OR address like \'%h%\'  OR contact like \'%h%\'  OR description like \'%h%\'  ) ')
+ 6 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 7 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-05 06:07:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (  name like '%a%'  OR address like '%a%'  OR contact like '%a%'  OR desc...' at line 2 in C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4-rbac\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4-rbac\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4-rbac\app\Libraries\Datatable.php(68): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...')
+#4 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *\nFROM `...')
+#5 C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+#6 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+#7 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+#8 C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4-rbac\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-05 06:07:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND (  name like '%a%'  OR address like '%a%'  OR contact like '%a%'  OR desc...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `stores` AND (  name like \'%a%\'  OR address like \'%a%\'  OR contact like \'%a%\'  OR description like \'%a%\'  ) ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `stores` AND (  name like \'%a%\'  OR address like \'%a%\'  OR contact like \'%a%\'  OR description like \'%a%\'  ) ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `stores` AND (  name like \'%a%\'  OR address like \'%a%\'  OR contact like \'%a%\'  OR description like \'%a%\'  ) ')
+ 4 APPPATH\Libraries\Datatable.php(68): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `stores` AND (  name like \'%a%\'  OR address like \'%a%\'  OR contact like \'%a%\'  OR description like \'%a%\'  ) ')
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `stores` AND (  name like \'%a%\'  OR address like \'%a%\'  OR contact like \'%a%\'  OR description like \'%a%\'  ) ')
+ 6 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(36): agungsugiarto\boilerplate\Models\StoreModel->storeListDatatable()
+ 7 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->storeDatatable()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 06:23:40 --> Too few arguments to function agungsugiarto\boilerplate\Controllers\Home::edit_store(), 0 passed in C:\xampp\htdocs\ci4-rbac\system\CodeIgniter.php on line 927 and exactly 1 expected
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->edit_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 06:27:19 --> Call to a member function orderBy() on array
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php on line 26.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(144): agungsugiarto\boilerplate\Models\StoreModel->getStore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->edit_store('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 06:28:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\StoreModel.php on line 26.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(144): agungsugiarto\boilerplate\Models\StoreModel->getStore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->edit_store('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 06:43:51 --> Undefined array key "id"
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\edit.php on line 22.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('agungsugiarto\\boilerplate\\Views\\Home\\stores\\edit', [], true)
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(151): view('agungsugiarto\\boilerplate\\Views\\Home\\stores\\edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->edit_store('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 06:49:07 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(179): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads\\storeImages', '1667648947_c92f802fcf5bddadf04f')
+ 3 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->edit_store('3')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 06:50:27 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in C:\xampp\htdocs\ci4-rbac\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 175 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 750.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(175): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->edit_store('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 07:21:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(255): CodeIgniter\Model->__call('insertStore', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->updateStore()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:38:25 --> Undefined array key "order"
+in APPPATH\Libraries\Datatable.php on line 76.
+ 1 APPPATH\Libraries\Datatable.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'APPPATH\\Libraries\\Datatable.php', 76)
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\TestimonialsModel.php(20): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `testimonials`
+WHERE 1 = 1 ORDER BY ')
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(72): agungsugiarto\boilerplate\Models\TestimonialsModel->testimonialsListDatatable()
+ 4 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->testimonialsDatatable()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:41:31 --> Undefined array key "order"
+in APPPATH\Libraries\Datatable.php on line 76.
+ 1 APPPATH\Libraries\Datatable.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'APPPATH\\Libraries\\Datatable.php', 76)
+ 2 FCPATH\vendor\agungsugiarto\boilerplate\src\Models\TestimonialsModel.php(21): App\Libraries\Datatable->LoadJson('SELECT *
+FROM `testimonials`
+WHERE 1 = 1 ORDER BY ')
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(72): agungsugiarto\boilerplate\Models\TestimonialsModel->testimonialsListDatatable()
+ 4 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->testimonialsDatatable()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-05 08:41:50 --> Undefined array key "status"
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 78.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->testimonialsDatatable()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,159 @@
+CRITICAL - 2022-11-04 03:12:29 --> Undefined property: Config\Boilerplate::$home
+in VENDORPATH\agungsugiarto\boilerplate\src\Config\Routes.php on line 17.
+ 1 VENDORPATH\agungsugiarto\boilerplate\src\Config\Routes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Boilerplate::$home', 'VENDORPATH\\agungsugiarto\\boilerplate\\src\\Config\\Routes.php', 17)
+ 2 SYSTEMPATH\Router\RouteCollection.php(645): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 VENDORPATH\agungsugiarto\boilerplate\src\Config\Routes.php(77): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(396): include('VENDORPATH\\agungsugiarto\\boilerplate\\src\\Config\\Routes.php')
+ 5 SYSTEMPATH\Router\RouteCollection.php(468): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH\Router\Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes('get')
+ 7 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/home/banner_images')
+ 8 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('admin/home/banner_images')
+ 9 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 03:14:04 --> Invalid file: frontend/home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/home.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('frontend/home', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('frontend/home')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-04 07:15:37 --> Undefined variable $permissions
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php on line 99.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $permissions', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\add.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [], true)
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(33): view('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:16:02 --> Undefined variable $roles
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php on line 108.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Views\Home\stores\add.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\add.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Views\\Home\\stores\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [], true)
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(33): view('agungsugiarto\\boilerplate\\Views\\Home\\stores\\add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:21:53 --> You must supply the parameters: from, to.
+in SYSTEMPATH\Router\RouteCollection.php on line 867.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Config\Routes.php(26): CodeIgniter\Router\RouteCollection->match([...], 'Home::add_store')
+ 2 SYSTEMPATH\Router\RouteCollection.php(645): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 FCPATH\vendor\agungsugiarto\boilerplate\src\Config\Routes.php(27): CodeIgniter\Router\RouteCollection->group('stores', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(645): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 5 FCPATH\vendor\agungsugiarto\boilerplate\src\Config\Routes.php(28): CodeIgniter\Router\RouteCollection->group('home', [...], Object(Closure))
+ 6 SYSTEMPATH\Router\RouteCollection.php(645): CodeIgniter\Router\RouteCollection->{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 7 FCPATH\vendor\agungsugiarto\boilerplate\src\Config\Routes.php(83): CodeIgniter\Router\RouteCollection->group('admin', Object(Closure))
+ 8 SYSTEMPATH\Router\RouteCollection.php(396): include('FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Config\\Routes.php')
+ 9 SYSTEMPATH\Router\RouteCollection.php(468): CodeIgniter\Router\RouteCollection->discoverRoutes()
+10 SYSTEMPATH\Router\Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes('post')
+11 SYSTEMPATH\Router\Router.php(181): CodeIgniter\Router\Router->checkRoutes('admin/home/stores/add')
+12 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('admin/home/stores/add')
+13 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+14 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:24:14 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:38:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Models\HomeModel.php on line 11.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(45): agungsugiarto\boilerplate\Models\HomeModel->getAllStates()
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:49:23 --> Call to a member function move() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:50:09 --> Call to a member function move() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:53:23 --> Call to a member function move() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:55:15 --> Call to a member function store() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:55:34 --> Call to a member function store() on null
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:58:47 --> Undefined array key "file"
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 49.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 07:58:59 --> Undefined array key "file"
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 49.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:07:57 --> Class "agungsugiarto\boilerplate\Controllers\File" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:10:07 --> Undefined variable $uploaded_fileinfo
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 52.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uploaded_fileinfo', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:14:04 --> finfo_file(C:\xampp\tmp\php941E.tmp): Failed to open stream: No such file or directory
+in SYSTEMPATH\Files\File.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\xampp\\tmp\\php941E.tmp): Failed to open stream: No such file or directory', 'SYSTEMPATH\\Files\\File.php', 114)
+ 2 SYSTEMPATH\Files\File.php(114): finfo_file(resource (file_info), 'C:\\xampp\\tmp\\php941E.tmp')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH\Files\File.php(126): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 SYSTEMPATH\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+ 7 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(57): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 8 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:21:22 --> Undefined variable $name
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 54.
+ 1 FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'FCPATH\\vendor\\agungsugiarto\\boilerplate\\src\\Controllers\\Home.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-04 08:21:34 --> Class "agungsugiarto\boilerplate\Controllers\Files" not found
+in FCPATH\vendor\agungsugiarto\boilerplate\src\Controllers\Home.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(927): agungsugiarto\boilerplate\Controllers\Home->add_store()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(agungsugiarto\boilerplate\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -10,7 +10,7 @@
     <div class="card-header">
         <div class="card-tools">
             <div class="btn-group">
-                <a href="<?= route_to('admin/user/manage/new') ?>" class="btn btn-sm btn-block btn-primary"><i class="fa fa-plus"></i>
+                <a href="<?= base_url('admin/user/manage/new') ?>" class="btn btn-sm btn-block btn-primary"><i class="fa fa-plus"></i>
                     <?= lang('boilerplate.user.add') ?>
                 </a>
             </div>
@@ -82,7 +82,7 @@
                 "data": function(data) {
                     return `<td class="text-right py-0 align-middle">
                             <div class="btn-group btn-group-sm">
-                                <a href="<?= route_to('admin/user/manage') ?>/${data.id}/edit" class="btn btn-primary btn-edit"><i class="fas fa-pencil-alt"></i></a>
+                                <a href="<?= base_url('admin/user/manage') ?>/${data.id}/edit" class="btn btn-primary btn-edit"><i class="fas fa-pencil-alt"></i></a>
                                 <button class="btn btn-danger btn-delete" data-id="${data.id}"><i class="fas fa-trash"></i></button>
                             </div>
                             </td>`
